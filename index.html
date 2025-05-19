@@ -14,20 +14,23 @@
 <body>
     <header id="t-main-content">
         <div class="navbar">
-            <div class="logo">
+            <!-- div class="logo">
                 <a href="/"><img src="assets/logo-white.png" alt="Питер Life"></a>
-            </div>
+            </div -->
             <nav class="main-menu">
                 <ul>
+                    <!-- Остальные пункты меню здесь 
                     <li><a href="afisha.html">Афиша</a></li>
                     <li><a href="about.html">О нас</a></li>
                     <li><a href="menu.html">Меню</a></li>
                     <li><a href="#bar-section" class="active">Наш бар</a></li>
-                    <li><a href="contacts.html">Контакты</a></li>
+                    <li><a href="contacts.html">Контакты</a></li>-->
+                    <li><a href="index.html">Главная</a></li>
+                    <li><a href="about.html">О нас</a></li>
+                    <li><a href="rent.html">Праздники</a></li>
                     <li class="phone"><a href="tel:+79187589991">+7 (918) 758-99-91</a></li>
                 </ul>
             </nav>
-            <button class="reserve-btn primary-btn">Забронировать стол</button>
             <div class="mobile-menu-toggle">
                 <span></span>
                 <span></span>
@@ -36,37 +39,42 @@
         </div>
     </header>
 
-    <section class="hero">
-        <div class="hero-content">
-            <div class="hero-logo">
-                <div class="logo-repeat">
-                    <img src="assets/logo-main.png" alt="Питер LIFE">
-                </div>
-            </div>
-            <div class="hero-text">
-                <h1>ГАСТРОНОМИЧЕСКАЯ</h1>
-                <h2>ТУСОВКА</h2>
-                <a href="#tablereservation" class="reserve-btn">ЗАБРОНИРОВАТЬ</a>
-            </div>
-        </div>
-    </section>
-
-    <section class="our-bars-ticker">
-        <div class="ticker-wrap">
-            <div class="ticker">
-                <div class="ticker-item">НАШ БАР</div>
-                <div class="ticker-item">НАШ БАР</div>
-                <div class="ticker-item">НАШ БАР</div>
-                <div class="ticker-item">НАШ БАР</div>
-                <div class="ticker-item">НАШ БАР</div>
-                <div class="ticker-item">НАШ БАР</div>
-                <div class="ticker-item">НАШ БАР</div>
-                <div class="ticker-item">НАШ БАР</div>
-                <div class="ticker-item">НАШ БАР</div>
-                <div class="ticker-item">НАШ БАР</div>
+    
+<section class="hero">
+    <video autoplay muted loop playsinline class="background-video">
+        <source src="assets/hero-party.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+    <div class="hero-content">
+        <div class="hero-logo">
+            <div class="logo-repeat">
+                <img src="assets/logo-life.png" alt="Питер LIFE">
             </div>
         </div>
-    </section>
+        <div class="hero-text">
+            <h1>ГАСТРОНОМИЧЕСКАЯ</h1>
+            <h2>ТУСОВКА</h2>
+            <a href="#tablereservation" class="reserve-btn">ЗАБРОНИРОВАТЬ</a>
+            <a href="https://eda.yandex.ru/restaurant/piter_life_hg7s8" class="deliviry-btn">
+                <i class="fa-brands fa-yandex"></i> Доставка
+            </a>
+        </div>
+    </div>
+</section>
+<section class="loops" style="offset: 5;">
+    <div class="loop-strip"></div>
+</section>
+<section class="guest-gallery">
+    <h2>ГОСТИ И ВЕЧЕРИНКИ</h2>
+    <div class="gallery-grid">
+        <img src="https://i.ibb.co/7tJmgyyP/image.png" alt="Гость 1">
+        <img src="https://i.ibb.co/LdW6X3LF/image.png" alt="Гость 2">
+        <img src="https://i.ibb.co/Rpv7Sw0m/image.png" alt="Гость 3">
+        <img src="https://i.ibb.co/cHJPvty/image.png" alt="Гость 4">
+        <img src="https://i.ibb.co/mCHCchkK/image.png" alt="Гость 5">
+        <img src="https://i.ibb.co/B2hKD9z0/image.png" alt="Гость 6">
+    </div>
+</section>
 
     <section class="events">
         <div class="events-container">
@@ -84,7 +92,7 @@
                     <div class="event-info">
                         <h3>DJ EGOISTIKA</h3>
                         <p>Диджей</p>
-                        <p class="event-date">10 МАЯ</p>
+                        <p class="event-date" style="font-size: 30px;">10 МАЯ</p>
                         <p class="event-time">20:00</p>
                         <a href="#" class="event-link">Подробнее</a>
                     </div>
@@ -96,12 +104,23 @@
                     <div class="event-info">
                         <h3>DJ MIKO</h3>
                         <p>Диджей</p>
-                        <p class="event-date">16 МАЯ</p>
+                        <p class="event-date" style="font-size: 30px;">16 МАЯ</p>
                         <p class="event-time">20:00</p>
                         <a href="#" class="event-link">Подробнее</a>
                     </div>
                 </div>
             </div>
+        </div>
+        <div style="text-align: center;">
+        <a href="#tablereservation" class="reserve-btn" style="margin-top: 20px;
+            padding: 15px 30px;
+            background: #ff0066;
+            border: none;
+            border-radius: 10px;
+            color: white;
+            font-size: 1.2rem;
+            cursor: pointer;
+            animation: pulse 2s infinite;">ЗАБРОНИРОВАТЬ</a>
         </div>
     </section>
 
@@ -112,18 +131,18 @@
                 <p>Ресторан «Питер Life» — это место, где можно не только вкусно поесть, но и хорошо провести время. Здесь звучит отличная музыка, проводятся тематические вечеринки и выступают диджеи.</p>
             </div>
             <div class="bar-card">
-                <div class="bar-image">
+                <div class="bar-image" style="max-height: 300px;">
                     <img src="attached_assets/!ALC00324-Улучшено-Ум. шума-Пано копия.jpg" alt="Бар Питера">
                     <div class="bar-overlay">
                         <h3>ПИТЕР LIFE</h3>
                     </div>
                 </div>
             </div>
-            <div class="bar-description">
+            <!-- div class="bar-description">
                 <p>В ресторане есть барная стойка, где можно пообщаться с барменом и попробовать авторские коктейли. Кроме того, здесь можно покурить кальян.</p>
                 <p>Современная гастрономия, сочетающая техасскую кухню копчения, азиатский стритфуд и классические блюда в уникальной интерпретации Шефа. В Питер Life вы можете попробовать авторские коктейли и потанцевать под музыку модных DJ в атмосфере белых ночей.</p>
                 <a href="#tablereservation" class="reserve-btn">ЗАБРОНИРОВАТЬ СТОЛ</a>
-            </div>
+            </div -->
         </div>
     </section>
 
@@ -149,70 +168,62 @@
                 <div class="ticker-item">питерlife</div>
                 <div class="ticker-item">питерlife</div>
                 <div class="ticker-item">питерlife</div>
-            </div>
-        </div>
-    </section>
-
-    <section class="specials">
-        <div class="specials-container">
-            <div class="specials-header">
-                <h2>АКЦИИ & ПРЕДЛОЖЕНИЯ</h2>
-                <p>Здесь мы публикуем самые топовые предложения в нашем баре. Не пропустите!</p>
-                <a href="#alltablereservation" class="reserve-btn">Забронировать стол</a>
-            </div>
-            <div class="special-cards">
-                <div class="special-card">
-                    <div class="special-content">
-                        <h3>Клубная карта</h3>
-                        <p>Получите преимущества постоянного гостя</p>
-                        <a href="#" class="special-btn">Получить карту</a>
-                    </div>
-                </div>
-                <div class="special-card">
-                    <div class="special-content">
-                        <h3>Аренда заведения</h3>
-                        <p>Для ваших мероприятий и праздников</p>
-                        <a href="#" class="special-btn">ОСТАВИТЬ ЗАЯВКУ</a>
-                    </div>
-                </div>
-                <div class="special-card">
-                    <div class="special-content">
-                        <h3>Корпоративы и праздники</h3>
-                        <p>Организуем ваш праздник под ключ</p>
-                        <a href="#" class="special-btn">Подробнее</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section class="club-card">
-        <div class="club-card-container">
-            <div class="club-card-content">
-                <h2>Клубная карта</h2>
-                <h3>Привилегии клубной карты:</h3>
-                <p>Клубная карта позволяет накапливать и тратить баллы в зависимости от её статуса, а также даёт дополнительную лояльность на входе у FC</p>
-                <p>1 балл = 1 рубль, ими можно можно оплачивать 30% счёта в нашем баре</p>
-                <p>Карта Silver 11% позволяет пройти на депозитные концерты, а карта Gold 22% даёт доступ на некоторые закрытые мероприятия</p>
-                
-                <h3>Условия повышения статуса:</h3>
-                <ul>
-                    <li>5% — Bronze</li>
-                    <li>11% — Silver от 150 000₽ в год</li>
-                    <li>22% — Gold от 500 000₽ в год</li>
-                    <li>33% — Black от 1 200 000₽ в год</li>
-                </ul>
-                
-                <p>Копи баллы, приводи друзей, посещай закрытые мероприятия</p>
-                <p class="bold">Вступай в клуб ПИТЕР LIFE</p>
-                
-                <a href="#" class="club-card-btn">Получить карту</a>
-            </div>
-            <div class="club-card-images">
-                <div class="card bronze">BRONZE</div>
-                <div class="card silver">SILVER</div>
-                <div class="card gold">GOLD</div>
-                <div class="card black">BLACK</div>
+                <div class="ticker-item">питерlife</div>
+                <div class="ticker-item">питерlife</div>
+                <div class="ticker-item">питерlife</div>
+                <div class="ticker-item">питерlife</div>
+                <div class="ticker-item">питерlife</div>
+                <div class="ticker-item">питерlife</div>
+                <div class="ticker-item">питерlife</div>
+                <div class="ticker-item">питерlife</div>
+                <div class="ticker-item">питерlife</div>
+                <div class="ticker-item">питерlife</div>
+                <div class="ticker-item">питерlife</div>
+                <div class="ticker-item">питерlife</div>
+                <div class="ticker-item">питерlife</div>
+                <div class="ticker-item">питерlife</div>
+                <div class="ticker-item">питерlife</div>
+                <div class="ticker-item">питерlife</div>
+                <div class="ticker-item">питерlife</div>
+                <div class="ticker-item">питерlife</div>
+                <div class="ticker-item">питерlife</div>
+                <div class="ticker-item">питерlife</div>
+                <div class="ticker-item">питерlife</div>
+                <div class="ticker-item">питерlife</div>
+                <div class="ticker-item">питерlife</div>
+                <div class="ticker-item">питерlife</div>
+                <div class="ticker-item">питерlife</div>
+                <div class="ticker-item">питерlife</div>
+                <div class="ticker-item">питерlife</div>
+                <div class="ticker-item">питерlife</div>
+                <div class="ticker-item">питерlife</div>
+                <div class="ticker-item">питерlife</div>
+                <div class="ticker-item">питерlife</div>
+                <div class="ticker-item">питерlife</div>
+                <div class="ticker-item">питерlife</div>
+                <div class="ticker-item">питерlife</div>
+                <div class="ticker-item">питерlife</div>
+                <div class="ticker-item">питерlife</div>
+                <div class="ticker-item">питерlife</div>
+                <div class="ticker-item">питерlife</div>
+                <div class="ticker-item">питерlife</div>
+                <div class="ticker-item">питерlife</div>
+                <div class="ticker-item">питерlife</div>
+                <div class="ticker-item">питерlife</div>
+                <div class="ticker-item">питерlife</div>
+                <div class="ticker-item">питерlife</div>
+                <div class="ticker-item">питерlife</div>
+                <div class="ticker-item">питерlife</div>
+                <div class="ticker-item">питерlife</div>
+                <div class="ticker-item">питерlife</div>
+                <div class="ticker-item">питерlife</div>
+                <div class="ticker-item">питерlife</div>
+                <div class="ticker-item">питерlife</div>
+                <div class="ticker-item">питерlife</div>
+                <div class="ticker-item">питерlife</div>
+                <div class="ticker-item">питерlife</div>
+                <div class="ticker-item">питерlife</div>
+                <div class="ticker-item">питерlife</div>
             </div>
         </div>
     </section>
@@ -238,6 +249,96 @@
                 <p class="reservation-note">P.S. И не расстраивайтесь потом, если не удалось попасть)</p>
             </form>
         </div>
+        </section>
+            <section class="party-carousel">
+            <div class="carousel-wrapper">
+                <div class="carousel">
+                    <img src="https://i.ibb.co/7tJmgyyP/image.png" alt="Гость 1">
+                    <img src="https://i.ibb.co/LdW6X3LF/image.png" alt="Гость 2">
+                    <img src="https://i.ibb.co/Rpv7Sw0m/image.png" alt="Гость 3">
+                    <img src="https://i.ibb.co/cHJPvty/image.png" alt="Гость 4">
+                    <img src="https://i.ibb.co/mCHCchkK/image.png" alt="Гость 5">
+                    <img src="https://i.ibb.co/B2hKD9z0/image.png" alt="Гость 6">
+                    <img src="https://i.ibb.co/7tJmgyyP/image.png" alt="Гость 1">
+                    <img src="https://i.ibb.co/LdW6X3LF/image.png" alt="Гость 2">
+                    <img src="https://i.ibb.co/Rpv7Sw0m/image.png" alt="Гость 3">
+                    <img src="https://i.ibb.co/cHJPvty/image.png" alt="Гость 4">
+                    <img src="https://i.ibb.co/mCHCchkK/image.png" alt="Гость 5">
+                    <img src="https://i.ibb.co/B2hKD9z0/image.png" alt="Гость 6">
+                    <img src="https://i.ibb.co/7tJmgyyP/image.png" alt="Гость 1">
+                    <img src="https://i.ibb.co/LdW6X3LF/image.png" alt="Гость 2">
+                    <img src="https://i.ibb.co/Rpv7Sw0m/image.png" alt="Гость 3">
+                    <img src="https://i.ibb.co/cHJPvty/image.png" alt="Гость 4">
+                    <img src="https://i.ibb.co/mCHCchkK/image.png" alt="Гость 5">
+                    <img src="https://i.ibb.co/B2hKD9z0/image.png" alt="Гость 6">
+                    <img src="https://i.ibb.co/7tJmgyyP/image.png" alt="Гость 1">
+                    <img src="https://i.ibb.co/LdW6X3LF/image.png" alt="Гость 2">
+                    <img src="https://i.ibb.co/Rpv7Sw0m/image.png" alt="Гость 3">
+                    <img src="https://i.ibb.co/cHJPvty/image.png" alt="Гость 4">
+                    <img src="https://i.ibb.co/mCHCchkK/image.png" alt="Гость 5">
+                    <img src="https://i.ibb.co/B2hKD9z0/image.png" alt="Гость 6">
+            </div>
+            <div class="carousel-wrapper">
+                <div class="carousel-mini">
+                    <img src="https://images2.imgbox.com/61/7f/huj5JJp3_o.jpg" alt="Гость 1">
+                    <img src="assets/int.jpg" alt="Гость 2">
+                    <img src="assets/wall.jpg" alt="Гость 3">
+                    <img src="assets/pincil.jpg" alt="Гость 4">
+                    <img src="assets/xaxa.jpg" alt="Гость 5">
+                    <img src="assets/sran.jpg" alt="Гость 6">
+                    <img src="https://images2.imgbox.com/61/7f/huj5JJp3_o.jpg" alt="Гость 1">
+                    <img src="assets/int.jpg" alt="Гость 2">
+                    <img src="assets/wall.jpg" alt="Гость 3">
+                    <img src="assets/pincil.jpg" alt="Гость 4">
+                    <img src="assets/xaxa.jpg" alt="Гость 5">
+                    <img src="assets/sran.jpg" alt="Гость 6">
+                    <img src="https://images2.imgbox.com/61/7f/huj5JJp3_o.jpg" alt="Гость 1">
+                    <img src="assets/int.jpg" alt="Гость 2">
+                    <img src="assets/wall.jpg" alt="Гость 3">
+                    <img src="assets/pincil.jpg" alt="Гость 4">
+                    <img src="assets/xaxa.jpg" alt="Гость 5">
+                    <img src="assets/sran.jpg" alt="Гость 6">
+                    <img src="https://images2.imgbox.com/61/7f/huj5JJp3_o.jpg" alt="Гость 1">
+                    <img src="assets/int.jpg" alt="Гость 2">
+                    <img src="assets/wall.jpg" alt="Гость 3">
+                    <img src="assets/pincil.jpg" alt="Гость 4">
+                    <img src="assets/xaxa.jpg" alt="Гость 5">
+                    <img src="assets/sran.jpg" alt="Гость 6">
+                    <img src="https://images2.imgbox.com/61/7f/huj5JJp3_o.jpg" alt="Гость 1">
+                    <img src="assets/int.jpg" alt="Гость 2">
+                    <img src="assets/wall.jpg" alt="Гость 3">
+                    <img src="assets/pincil.jpg" alt="Гость 4">
+                    <img src="assets/xaxa.jpg" alt="Гость 5">
+                    <img src="assets/sran.jpg" alt="Гость 6">
+                    <img src="https://images2.imgbox.com/61/7f/huj5JJp3_o.jpg" alt="Гость 1">
+                    <img src="assets/int.jpg" alt="Гость 2">
+                    <img src="assets/wall.jpg" alt="Гость 3">
+                    <img src="assets/pincil.jpg" alt="Гость 4">
+                    <img src="assets/xaxa.jpg" alt="Гость 5">
+                    <img src="assets/sran.jpg" alt="Гость 6">
+                    <img src="https://images2.imgbox.com/61/7f/huj5JJp3_o.jpg" alt="Гость 1">
+                    <img src="assets/int.jpg" alt="Гость 2">
+                    <img src="assets/wall.jpg" alt="Гость 3">
+                    <img src="assets/pincil.jpg" alt="Гость 4">
+                    <img src="assets/xaxa.jpg" alt="Гость 5">
+                    <img src="assets/sran.jpg" alt="Гость 6">
+                    <img src="https://images2.imgbox.com/61/7f/huj5JJp3_o.jpg" alt="Гость 1">
+                    <img src="assets/int.jpg" alt="Гость 2">
+                    <img src="assets/wall.jpg" alt="Гость 3">
+                    <img src="assets/pincil.jpg" alt="Гость 4">
+                    <img src="assets/xaxa.jpg" alt="Гость 5">
+                    <img src="assets/sran.jpg" alt="Гость 6">
+            </div>
+            <section class="party-carousel">
+        </section>
+
+
+    <section class="map-section">
+        <h2 style="color: black;">Где мы находимся</h2>
+        <div class="map-container" style="text-align:center;">
+        <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A7f5241c84268bc21e4bdc190af74aecf5dc8fa83121c697a22e5c3a85bf06ed8&amp;width=100%25&amp;height=400&amp;lang=ru_RU&amp;scroll=true"></script>        </div>
+        <h3 style="color: black;">Никольская улица, 28, Ессентуки, Ставропольский край</h3>
+        <h4 style="color: gray;">Мы находимся всего в 10 минутах ходьбы от Центрального рынка. Идите по улице Никольская в сторону дома №28. Вход — с торцевой стороны здания.</h4>
     </section>
 
     <footer>
@@ -255,33 +356,7 @@
                 <p>Email: <a href="mailto:info@piterlife.ru">info@piterlife.ru</a></p>
             </div>
             <div class="footer-copyright">
-                <p>&copy; 2024 ПИТЕР LIFE. Все права защищены.</p>
+                <p>&copy; 2025 ПИТЕР LIFE. Все права защищены.</p>
             </div>
         </div>
-    </footer>
-
-    <div id="modal-overlay" class="modal-overlay">
-        <div class="modal-content">
-            <span class="close-modal">&times;</span>
-            <h2>Забронировать стол</h2>
-            <form class="modal-form">
-                <div class="form-group">
-                    <input type="hidden" id="modal-bar-select" name="bar" value="piter-life">
-                    <input type="text" name="bar-name" value="Питер Life" readonly class="readonly-input">
-                </div>
-                <div class="form-group">
-                    <label for="modal-phone">Телефон</label>
-                    <div class="phone-input">
-                        <span class="phone-prefix">+7</span>
-                        <input type="tel" id="modal-phone" name="phone" placeholder="(___) ___ __ __" required>
-                    </div>
-                </div>
-                <button type="submit" class="reserve-btn">Забронировать</button>
-                <p class="privacy-notice">Нажимая кнопку «Забронировать», вы даёте согласие на обработку ваших персональных данных.</p>
-            </form>
-        </div>
-    </div>
-
-    <script src="js/main.js"></script>
-</body>
-</html>
+</footer>

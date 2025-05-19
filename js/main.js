@@ -167,3 +167,10 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }
 });
+
+
+setInterval(() => {
+    const items = document.querySelectorAll('.main-menu li a');
+    const index = Math.floor(Math.random() * items.length);
+    items.forEach((el, i) => el.classList.toggle('active', i === index));
+}, 3000);
